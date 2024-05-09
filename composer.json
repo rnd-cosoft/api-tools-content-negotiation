@@ -1,5 +1,5 @@
 {
-    "name": "laminas-api-tools/api-tools-content-negotiation",
+    "name": "rnd-cosoft/api-tools-content-negotiation",
     "description": "Laminas Module providing content-negotiation features",
     "license": "BSD-3-Clause",
     "keywords": [
