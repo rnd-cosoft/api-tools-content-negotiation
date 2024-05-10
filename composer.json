@@ -53,9 +53,6 @@
         "psalm/plugin-phpunit": "^0.16.1",
         "vimeo/psalm": "^4.30"
     },
-    "replace": {
-        "laminas-api-tools/api-tools-content-negotiation": "*"
-    },
     "autoload": {
         "psr-4": {
             "Laminas\\ApiTools\\ContentNegotiation\\": "src/"
@@ -78,6 +75,7 @@
         "static-analysis": "psalm --shepherd --stats"
     },
     "replace": {
-        "zfcampus/zf-content-negotiation": "^1.4.0"
+        "zfcampus/zf-content-negotiation": "^1.4.0",
+        "laminas-api-tools/api-tools-content-negotiation": "*"
     }
 }
