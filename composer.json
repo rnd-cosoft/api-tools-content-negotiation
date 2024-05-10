@@ -33,7 +33,7 @@
     },
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-        "laminas-api-tools/api-tools-api-problem": "^1.6.0",
+        "rnd-cosoft/api-tools-api-problem": "^1.6.0",
         "laminas/laminas-eventmanager": "^3.4.0",
         "laminas/laminas-filter": "^2.13.0",
         "laminas/laminas-http": "^2.15.1",
@@ -46,12 +46,15 @@
         "laminas/laminas-zendframework-bridge": "^1.1"
     },
     "require-dev": {
-        "laminas-api-tools/api-tools-hal": "^1.10",
+        "rnd-cosoft/api-tools-hal": "^1.10",
         "laminas/laminas-coding-standard": "~2.3.0",
         "phpspec/prophecy-phpunit": "^2.0.1",
         "phpunit/phpunit": "^9.5.27",
         "psalm/plugin-phpunit": "^0.16.1",
         "vimeo/psalm": "^4.30"
+    },
+    "replace": {
+        "laminas-api-tools/api-tools-content-negotiation": "*"
     },
     "autoload": {
         "psr-4": {
